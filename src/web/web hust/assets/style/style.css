@@ -1,0 +1,201 @@
+/* reset css */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+-------------------------------------------------------------header-----------------------------------------------------------
+ */
+
+.logo{
+    max-width: 16%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.name-school{
+    list-style: none;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0;
+}
+
+.heading{
+    gap: 50px;
+}
+
+.language-img{
+    gap: 10px;
+    margin-right: 40px;
+}
+
+.form-inline{
+    flex-flow: row !important;
+}
+
+.radius{
+    border-radius: 100px !important;
+}
+
+/*
+---------------------------------------------------------------------------- nav & subnav -------------------------------------------------------------
+*/
+
+.nav-head{
+    width: 100%;
+    list-style: none;
+    background-color: #0A0A0A;
+    border-top: 7px solid rgb(190, 15, 15);;
+}
+
+#nav{
+    display: inline-block;
+}
+
+#nav, .subnav{
+    list-style-type: none;
+    background-color: #0A0A0A !important;
+}
+
+#nav > li{
+    display: inline-block;
+}
+
+#nav li{
+    position: relative;
+}
+
+.nav-head li a{
+    color: #fff;
+}
+
+#nav li:hover .subnav{
+    display: block;
+}
+
+#nav > li:hover > a,
+#nav .subnav li:hover{
+    background-color: #387ebf;
+}
+
+#nav .subnav{
+    display: none; 
+    position: absolute;
+    top: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3  );
+    min-width: 160px;
+}
+
+#nav .subnav a{
+    color: #fff;
+    padding: 0 12px;
+    line-height: 38px;
+    
+}   
+
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    display: block;
+}
+
+/* 
+---------------------------------------------------------------------------home--------------------------------------------------------------
+ */
+
+.home span a{
+    color: #000;
+}
+
+.home span a:hover{
+    text-decoration: none;
+    color: #387ebf;
+}
+
+.home span span{
+    color: #387ebf;
+}
+
+.icon-small{
+    font-size: 1px;
+}
+
+/* 
+------------------------------------------------------content--------------------------------------------------------- 
+*/
+
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    gap: 5px;
+}
+
+.navbar span{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.menu-item a{
+    color: #000;
+    width: 100%;
+    font-size: 14px;
+}
+
+.menu-item a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.img-item{
+    width: 100%;
+}
+
+/* 
+...................................................................................................................................
+*/
+.col-8 ul li,
+.col-8 p{
+    font-size: 14px;
+}
+
+.col-8 ul li{
+    margin-bottom: 10px;
+}
+
+.widget-title{
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+
+.rule{
+    background-color: rgb(191, 49, 32);
+    height: 3px;
+    display: block;
+    margin: 1em 0 1em;
+    width: 100%;
+    max-width: 30px;
+}
+
+.text-fix li{
+    list-style: none;   
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.text-fix li a:hover,
+.text-fix li a{
+    text-decoration: none;
+    color: #000 !important;
+    
+}
